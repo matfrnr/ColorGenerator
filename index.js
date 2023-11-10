@@ -12,14 +12,6 @@ setInterval(() => {
   const colorText = document.createElement("h2");
   colorText.textContent = color;
 
-  // icone maison
-  const imageLink = document.createElement("a");
-  imageLink.href = "../index.html";
-  const image = document.createElement("img");
-  image.src = "maison.png";
-  image.classList.add("icone");
-  imageLink.appendChild(image);
-
   // Effacer le contenu actuel du body
   document.body.innerHTML = "";
 
